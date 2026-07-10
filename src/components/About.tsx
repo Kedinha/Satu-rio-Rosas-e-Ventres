@@ -14,7 +14,7 @@ export default function About() {
           >
             <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://scontent-gru2-1.cdninstagram.com/v/t51.82787-15/651033238_18565831894001825_2120190232584568869_n.webp?_nc_cat=107&ig_cache_key=Mzg1MDczNzI1NzA3MDg0NjgyMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5zZHIuQzMifQ%3D%3D&_nc_ohc=ANsr1jkve9YQ7kNvwG7-mVo&_nc_oc=AdnOE0fpSt0XJgPr23Dm4qcFFh9mM7Rt_uaWvu6wXSNUJOEteh3RC_LR3PQmkXDwttc5ZwbRm5jzy4Udmq-Rocqy&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-gru2-1.cdninstagram.com&_nc_gid=DcGBCBI6QV7UoLEVeYFDuw&_nc_ss=8&oh=00_AfyCqg65RUziTT4I39T3gstOpLP6MnO2VIpa1MOrNEdZOA&oe=69B9D705"
+                src="/michelly.jpeg"
                 alt="Michelly Dominique"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
