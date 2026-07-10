@@ -17,7 +17,11 @@ export default function Navbar() {
     <nav className={`fixed w-full z-50 transition-all duration-500 ${scrolled ? 'bg-paper/90 backdrop-blur-md py-4 shadow-sm' : 'bg-transparent py-6'}`}>
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <a href="#home" className="flex items-center gap-3">
-          <img src={scrolled ? "/logo-symbol.png" : "/logo-white-bw.png"} alt="Rosas & Ventres" className="h-16 w-auto" />
+          {scrolled ? (
+            <span className="text-2xl text-marsala font-serif tracking-wider">Rosas &amp; Ventres</span>
+          ) : (
+            <img src="/logo-white-bw.png" alt="Rosas & Ventres" className="h-20 w-auto rounded-lg" />
+          )}
         </a>
 
         <div className="hidden md:flex space-x-8">

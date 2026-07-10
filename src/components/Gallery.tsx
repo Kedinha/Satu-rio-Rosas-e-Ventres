@@ -32,7 +32,7 @@ export default function Gallery() {
               <img
                 src={img}
                 alt={`Gallery ${idx}`}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-top"
                 referrerPolicy="no-referrer"
               />
             </motion.div>

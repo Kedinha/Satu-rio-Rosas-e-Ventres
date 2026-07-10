@@ -13,8 +13,8 @@ export default function Hero() {
       />
       <img
         src="/michelly.jpeg"
-        alt=""
-        className="absolute inset-0 z-[1] w-full h-full object-cover opacity-30 mix-blend-overlay pointer-events-none"
+        alt="Foto Michelly Dominiq"
+        className="absolute inset-0 z-1 w-full h-full object-cover opacity-30 mix-blend-overlay pointer-events-none"
         referrerPolicy="no-referrer"
       />
 
@@ -25,7 +25,7 @@ export default function Hero() {
           transition={{ duration: 1, ease: "easeOut" }}
         >
           <span className="text-gold uppercase tracking-[0.3em] text-sm mb-4 block font-medium">Bem-vinda ao seu Portal</span>
-          <h1 className="text-5xl md:text-8xl text-white mb-6 leading-tight">
+          <h1 className="text-3xl sm:text-5xl md:text-8xl text-white mb-6 leading-tight">
             Santuário <br />
             <span className="italic font-light">Rosas & Ventres</span>
           </h1>
@@ -55,7 +55,7 @@ export default function Hero() {
         transition={{ repeat: Infinity, duration: 2 }}
         className="absolute bottom-10 left-1/2 -translate-x-1/2 text-white/50"
       >
-        <div className="w-[1px] h-12 bg-gradient-to-b from-white/50 to-transparent mx-auto" />
+        <div className="w-px h-12 bg-linear-to-b from-white/50 to-transparent mx-auto" />
       </motion.div>
     </section>
   );

@@ -3,9 +3,9 @@ import { Instagram } from 'lucide-react';
 
 export default function About() {
   return (
-    <section id="sobre" className="py-24 bg-white">
+    <section id="sobre" className="py-24 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid md:grid-cols-2 gap-16 items-center">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -30,7 +30,7 @@ export default function About() {
             viewport={{ once: true }}
           >
             <span className="text-gold uppercase tracking-widest text-sm mb-4 block">A Guardiã</span>
-            <h2 className="text-4xl md:text-5xl text-marsala mb-8">Michelly Dominique</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl text-marsala mb-8">Michelly Dominique</h2>
             <div className="space-y-6 text-ink/80 leading-relaxed">
               <p>
                 Dançarina, pesquisadora e terapeuta holística, dedicada a guiar mulheres no caminho do autoconhecimento através do corpo e da ancestralidade.

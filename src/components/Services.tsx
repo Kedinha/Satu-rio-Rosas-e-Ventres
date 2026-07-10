@@ -7,7 +7,7 @@ export default function Services() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <span className="text-gold uppercase tracking-widest text-sm mb-4 block">Nossas Pétalas</span>
-          <h2 className="text-4xl md:text-5xl text-marsala">Vivências & Práticas</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl text-marsala">Vivências & Práticas</h2>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -20,7 +20,7 @@ export default function Services() {
               transition={{ delay: idx * 0.1 }}
               className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all"
             >
-              <div className="h-48 overflow-hidden">
+              <div className="aspect-[2/3] overflow-hidden">
                 <img
                   src={service.image}
                   alt={service.title}
@@ -28,7 +28,7 @@ export default function Services() {
                   referrerPolicy="no-referrer"
                 />
               </div>
-              <div className="p-8">
+              <div className="p-5 md:p-8">
                 <div className="text-gold mb-4">{service.icon}</div>
                 <h3 className="text-xl text-marsala mb-4">{service.title}</h3>
                 <p className="text-ink/70 text-sm leading-relaxed">

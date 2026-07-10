@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section id="contato" className="py-24 bg-marsala text-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 relative z-10">
-        <div className="grid md:grid-cols-2 gap-16">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-16">
           <div>
             <h2 className="text-4xl md:text-5xl mb-8">Inicie sua Jornada</h2>
             <p className="text-white/70 mb-12 text-lg font-light">
@@ -18,7 +18,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-serif text-xl mb-1">Localização</h4>
-                  <p className="text-white/60">São Paulo, SP - Brasil (Consulte endereço exato)</p>
+                  <p className="text-white/60">Campo Grande, MS - Brasil (Consulte endereço exato)</p>
                 </div>
               </div>
 
@@ -28,7 +28,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-serif text-xl mb-1">E-mail</h4>
-                  <p className="text-white/60">contato@rosaseventres.com.br</p>
+                  <p className="text-white/60">contato@rosaseventres.com</p>
                 </div>
               </div>
 
@@ -38,15 +38,15 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-serif text-xl mb-1">WhatsApp</h4>
-                  <p className="text-white/60">+55 (11) 99999-9999</p>
+                  <p className="text-white/60">+55 67 9274-0502</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="bg-white p-10 rounded-3xl text-ink shadow-2xl">
+          <div className="bg-white p-6 md:p-10 rounded-3xl text-ink shadow-2xl">
             <form className="space-y-6">
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="space-y-2">
                   <label className="text-xs uppercase tracking-widest font-bold text-ink/50">Nome</label>
                   <input type="text" className="w-full px-4 py-3 bg-paper border border-ink/10 rounded-xl focus:outline-none focus:border-gold transition-colors" placeholder="Seu nome" />
