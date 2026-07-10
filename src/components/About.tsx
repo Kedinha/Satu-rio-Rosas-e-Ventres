@@ -14,7 +14,7 @@ export default function About() {
           >
             <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/michelly.jpeg"
+                src="/fotos/michelly.jpeg"
                 alt="Michelly Dominique"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

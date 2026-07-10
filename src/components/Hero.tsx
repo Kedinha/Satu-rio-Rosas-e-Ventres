@@ -12,7 +12,7 @@ export default function Hero() {
         }}
       />
       <img
-        src="https://scontent-gru1-2.cdninstagram.com/v/t51.82787-15/742060276_18599660245001825_7591681048998852503_n.webp?_nc_cat=103&ig_cache_key=MzkzNzg1Mzg5NTEwNjY0MTY0OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=T__MRrjz7L4Q7kNvwEMLEVy&_nc_oc=AdozjHF2pxp0v3BnBHcX9ngDygLo0ZfgcgqF0qf5GcZ0SUWklUR-v_NK3NXULSKS7kHfOBSilKPEUla6GxtXCDZ-&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-gru1-2.cdninstagram.com&_nc_gid=aJLIcUzWolM-dn2VqZ2JyQ&_nc_ss=7a22e&oh=00_AQCv9E3oQmkh6QTJaFCK-TReStk1rNp76SYBlUJgKgEscQ&oe=6A5629CE"
+        src="/michelly.jpeg"
         alt=""
         className="absolute inset-0 z-[1] w-full h-full object-cover opacity-30 mix-blend-overlay pointer-events-none"
         referrerPolicy="no-referrer"
