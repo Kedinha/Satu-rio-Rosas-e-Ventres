@@ -16,8 +16,8 @@ export default function Navbar() {
   return (
     <nav className={`fixed w-full z-50 transition-all duration-500 ${scrolled ? 'bg-paper/90 backdrop-blur-md py-4 shadow-sm' : 'bg-transparent py-6'}`}>
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
-        <a href="#home" className={`text-2xl font-serif font-bold tracking-tighter transition-colors duration-300 ${scrolled ? 'text-marsala' : 'text-white'}`}>
-          Rosas & Ventres
+        <a href="#home" className="flex items-center gap-3">
+          <img src="/logo.png" alt="Rosas & Ventres" className="h-10 w-auto" />
         </a>
 
         <div className="hidden md:flex space-x-8">
