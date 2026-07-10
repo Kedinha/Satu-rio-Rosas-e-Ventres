@@ -12,7 +12,7 @@ export default function Gallery() {
             <h2 className="text-4xl md:text-5xl text-marsala">Galeria de Almas</h2>
           </div>
           <a
-            href="https://www.instagram.com/michellydominiq/"
+            href="https://www.instagram.com/rosaseventres/"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 border border-marsala/20 rounded-full hover:bg-marsala hover:text-white transition-all flex items-center gap-2"
