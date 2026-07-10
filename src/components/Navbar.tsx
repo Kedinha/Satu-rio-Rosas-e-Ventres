@@ -17,7 +17,7 @@ export default function Navbar() {
     <nav className={`fixed w-full z-50 transition-all duration-500 ${scrolled ? 'bg-paper/90 backdrop-blur-md py-4 shadow-sm' : 'bg-transparent py-6'}`}>
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <a href="#home" className="flex items-center gap-3">
-          <img src="/logo.png" alt="Rosas & Ventres" className="h-10 w-auto" />
+          <img src="/logo-symbol.png" alt="Rosas & Ventres" className="h-14 w-auto" />
         </a>
 
         <div className="hidden md:flex space-x-8">

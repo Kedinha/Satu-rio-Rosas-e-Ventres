@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="py-12 bg-paper border-t border-ink/5">
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
         <div className="text-center md:text-left">
-          <img src="/logo.png" alt="Rosas & Ventres" className="h-10 w-auto mb-2" />
+          <img src="/logo-symbol.png" alt="Rosas & Ventres" className="h-16 w-auto mb-2" />
           <p className="text-ink/40 text-sm">© 2026 Todos os direitos reservados.</p>
         </div>
 
